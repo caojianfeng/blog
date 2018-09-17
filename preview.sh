@@ -1,1 +1,1 @@
-jekyll serve -H 0.0.0.0&
+jekyll serve -H 0.0.0.0

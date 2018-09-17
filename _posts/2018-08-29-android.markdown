@@ -2,6 +2,7 @@
 layout: post
 title: "Android"
 date: 2018-08-29T11:33:01+08:00
+lang: zh
 ---
 
 # 进程保活专题
@@ -19,3 +20,4 @@ date: 2018-08-29T11:33:01+08:00
 [Android 进程保活资料汇总与华为白名单那些事](https://blog.csdn.net/wangbf_java/article/details/72815820)
 
 
+ 
