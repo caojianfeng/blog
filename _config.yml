@@ -33,16 +33,16 @@ plugins:
   - jekyll-redirect-from
 
 # 多语言配置{
-gems:           ['jekyll-multiple-languages']
+#gems:           ['jekyll-multiple-languages']
 # 如果需要分页, 请加入 jekyll-paginate 并放于 jekyll-multiple-languages 之前
 # gems:           ['jekyll-paginate', 'jekyll-multiple-languages']
 
 # 所有的语言
-languages:          ['en', 'cn']
+#languages:          ['en', 'cn']
 
 # 默认语言
 # 如果没有配置，languages 中的第一项就是默认语言
-language_default:   'en'
+#language_default:   'en'
 # 多语言配置}
 
 # Exclude from processing.
