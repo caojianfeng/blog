@@ -6,13 +6,8 @@ layout: home
 ---
 <img src="http://pf1gwfhv7.bkt.clouddn.com/11853564.png" alt="微胖帅哥一个" style="width:200px;"/>
 
-<!--lang {% translate key %}-->
 
-<!--{% for item in site.translations[site.lang]["my_nested_yaml_collection"] %}-->
-    <!--<p>{{ item[0] }} -> {{ item[1] }}</p>-->
-<!--{% endfor %}-->
-
-# 12知识图
+# 15知识图
 Android
 Python
 
