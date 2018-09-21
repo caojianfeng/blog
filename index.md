@@ -6,28 +6,14 @@ layout: home
 ---
 <img src="http://pf1gwfhv7.bkt.clouddn.com/11853564.png" alt="微胖帅哥一个" style="width:200px;"/>
 
-## 分类：
+<!--lang {% translate key %}-->
 
-{% for category in site.categories %}
-  <h3>{{ category[0] }}</h3>
-  <ul>
-    {% for post in category[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {{ post.excerpt }}
-    {% endfor %}
-  </ul>
-{% endfor %}
+<!--{% for item in site.translations[site.lang]["my_nested_yaml_collection"] %}-->
+    <!--<p>{{ item[0] }} -> {{ item[1] }}</p>-->
+<!--{% endfor %}-->
 
-```txt
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
-```
-
+# 12知识图
+Android
+Python
 
 [拥抱 Android Studio 之五：Gradle 插件开发](http://blog.bugtags.com/2016/03/28/embrace-android-studio-gradle-plugin)
