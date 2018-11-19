@@ -1,0 +1,6 @@
+- name: M Android
+  file: main/android.yml
+  type: android
+- name: M Python
+  file: main/python.yml
+  type: python

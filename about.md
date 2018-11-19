@@ -24,3 +24,11 @@ Sometime I listened serial stories from the radio togethor with my father and a 
 I think I had more happiness then the children grow up with electronic games.
 ```
 
+ ```
+ activate-power-mode
+
+ ```
+ 
+ | Header One     | Header Two     |
+ | :------------- | :------------- |
+ | Item One       | Item Two       |

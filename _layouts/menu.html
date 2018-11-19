@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="menu">
+menu
+</div>
+
+<ul>
+
+{% for menu in site.data.main-menu %}
+  <li>
+    <a href="{{site.baseurl}}/{{ menu.file }}">
+      {% for menuitem in site.pages %}
+        {% if menuitem.type == menu.type %}
+            {{ menuitem.title }}
+        {% endif %}
+      {% endfor %}
+    </a>
+  </li>
+{% endfor %}
+
+</ul>
+
+
+
+{{content}}
