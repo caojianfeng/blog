@@ -1,8 +1,8 @@
 ---
-layout: page
-title: scrapy
+layout: menu
+title: scrapy爬虫框架
 type: python
 permalink: /python/scrapy/
 ---
 
-scrapy
+scrapy爬虫框架

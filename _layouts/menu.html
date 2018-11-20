@@ -1,27 +1,30 @@
 ---
 layout: default
 ---
-
 <div class="menu">
-menu
+  {% for menu in site.data.main-menu %}
+
+    <div>{{menu.name}}:
+
+    {% for menuitem in site.pages %}
+
+      {% if menuitem.type == menu.type %}
+
+          <a href="{{site.baseurl}}{{menuitem.permalink}} "
+             class="menu-item{% if page.url == menuitem.permalink %}-current{% endif %}" >
+             [{{ menuitem.title }}]
+          </a>
+
+      {% endif %}
+    {% endfor %}
+
+    </div>
+  {% endfor %}
 </div>
 
-<ul>
-
-{% for menu in site.data.main-menu %}
-  <li>
-    <a href="{{site.baseurl}}/{{ menu.file }}">
-      {% for menuitem in site.pages %}
-        {% if menuitem.type == menu.type %}
-            {{ menuitem.title }}
-        {% endif %}
-      {% endfor %}
-    </a>
-  </li>
-{% endfor %}
-
-</ul>
-
-
-
+<div class="wrapper">
+<br>
+{{"-------"|markdownify}}
+<br>
 {{content}}
+</div>

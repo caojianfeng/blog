@@ -1,6 +1,6 @@
-- name: M Android
-  file: main/android.yml
+- name: Android
   type: android
-- name: M Python
-  file: main/python.yml
+- name: Python
   type: python
+- name: Jekyll实用技巧
+  type: jekyll
